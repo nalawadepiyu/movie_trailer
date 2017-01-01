@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# creating instances of media type
 toy_story = media.Movie("TOY story",
 "Toy story line",
 "https://goo.gl/JjMqjd",
@@ -23,4 +24,6 @@ barbiee = media.Movie("Barbiee",
 
 #add elements in an array
 movies=[toy_story,avatar,cindrella,barbiee]
+
+#calling method to open page with list of movies
 fresh_tomatoes.open_movies_page(movies)
